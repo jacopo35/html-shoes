@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     font-size: 110%;
     font-family: 'Rubik', sans-serif;
@@ -13,21 +14,26 @@ html {
     height: 100vh;
     position: relative;
 }
+
 .top {
     background-color: #ff0000;
 }
+
 .medium {
   background-color: #008000;  
 }
+
 .bottom {
     background-color: #ffff00;
 }
+
 .img-top {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 img {
     width: 100%;
 }
@@ -37,6 +43,7 @@ h1 {
     margin-top: 70px;
 
 }
+
 .img-top h1 {
     color: #ffff00;
     margin-top: 70px;
@@ -77,6 +84,7 @@ a {
 .n-style {
     color: black;
 }
+
 .nn-style {
     margin-bottom: 10px;
 }
